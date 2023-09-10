@@ -1,0 +1,80 @@
+.serviceSwiper{
+    margin-top: 30px;
+    width: 970px;
+    height: 260px;
+    line-height: 1.4;
+}
+
+.serviceSwiper .serviceImg{
+    display: block;
+    width: 231px;
+    height: 153px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.serviceSwiper .serviceTag{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.serviceSwiper .serviceTitle{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.serviceSwiper .serviceOffer{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.service{
+    position: relative;
+    width: 970px;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+}
+
+.service .swiper-button-next::after,
+.service .swiper-button-prev::after {
+  display: none;
+}
+
+.service .swiper-button-prev{
+    background: url('/public/img/prev.png') no-repeat;
+    
+}
+
+.service .swiper-button-next{
+    background: url('/public/img/next.png') no-repeat;
+}
+
+.service .swiper-button-prev,
+.service .swiper-button-next{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: white;
+    background-position: center;
+    top: 76px;
+}
+
+.service .swiper-button-prev{
+    left: 0;
+    z-index: 3;
+    box-shadow: -2px 5px 5px gray;
+}
+
+.service .swiper-button-next{
+    right: 0;
+    z-index: 3;
+    box-shadow: 2px 5px 5px gray;
+}
+
+.service .swiper-button-disabled{
+    display: none;
+}
+
+

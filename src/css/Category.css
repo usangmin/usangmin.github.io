@@ -1,0 +1,40 @@
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.CategoryContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.CategoryContainer > a > li{
+    width: 96px;
+    height: 96px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.CategoryContainer > a > li:hover{
+    background-color: #fafafa;
+    transform: translateY(-10px);
+    border-radius: 10px;
+}
+
+.CategoryContainer > a > li img{
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 5px;
+}

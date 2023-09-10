@@ -1,0 +1,47 @@
+.bannerswiper{
+    top: 80px;
+    width: 970px
+}
+
+.bannerswiper .swiper-button-prev{
+    background: url('/public/img/prev.png') no-repeat;
+    
+}
+
+.bannerswiper .swiper-button-next{
+    background: url('/public/img/next.png') no-repeat;
+}
+
+.bannerswiper .swiper-button-prev,
+.bannerswiper .swiper-button-next{
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gray;
+    background-position: center;
+}
+
+.bannerswiper .swiper-button-next::after,
+.bannerswiper .swiper-button-prev::after {
+  display: none;
+}
+
+.bannerswiper:hover .swiper-button-prev,
+.bannerswiper:hover .swiper-button-next{
+    display: block;
+}
+
+.bannerswiper .swiper-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 24px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-bottom: 7px;
+    margin-left: 94%;
+    color: white;
+    background-color: gray;
+}

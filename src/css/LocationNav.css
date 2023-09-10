@@ -1,0 +1,49 @@
+.locationGroup{
+    margin-bottom: 30px;
+    height: 100px;
+}
+
+.locationHeader{
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 195px;
+    line-height: 1.4;
+    margin-right: 20px;
+}
+
+.locationHeader > p:nth-child(1){
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.locationList{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 702px;
+    right: 0;
+    align-items: center;
+}
+
+
+.locationList > li{
+    width: 58px;
+    height: 36px;
+    margin-left: 20px;
+    background-color: #EAFAF9;
+    border-radius: 20px;
+}
+
+.locationList > li > a{
+    width: 58px;
+    height: 36px;
+    position: absolute;
+    color: #00C7AE;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: 700;
+}

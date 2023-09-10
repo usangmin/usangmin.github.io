@@ -1,0 +1,134 @@
+footer{
+    border-top: 1px solid gray;
+}
+
+.footer{
+    max-width: 970px;
+    height: 390px;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+}
+
+.footer .First-footercontainer{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.footer .First-footercontainer .First-footercontainer-left{
+    position: absolute;
+}
+
+.footer .First-footercontainer .First-footercontainer-left .CallNumber{
+    color: #00C7AE;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.footer .First-footercontainer .First-footercontainer-left .etc{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.footer .First-footercontainer .First-footercontainer-left >div > a{
+    margin-top: 30px;
+    display: block;
+    width: 136px;
+    height: 36px;
+    background-color: #00C7AE;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer .First-footercontainer .First-footercontainer-left >div > a:nth-child(1){
+    margin-right: 10px;
+}
+
+.footer .First-footercontainer .First-footercontainer-right{
+    position: absolute;
+    right: 0;
+}
+
+.footer .First-footercontainer .First-footercontainer-right .footer-list{
+    display: flex;
+}
+
+.footer .First-footercontainer .First-footercontainer-right .footer-list > li{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer .First-footercontainer .First-footercontainer-right .footer-list > li >div{
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.footer .First-footercontainer .First-footercontainer-right .footer-list > li >div >a{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer .Second-footercontainer{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    top:190px;
+    display: flex;
+}
+
+.footer .Second-footercontainer .etc-data{
+    width: 760px;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.footer .Second-footercontainer .etc-data .etc-nav{
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.footer .Second-footercontainer .etc-data .etc-nav >a{
+    margin-right: 10px;
+}
+
+.footer .Second-footercontainer .etc-data > p{
+    margin-bottom: 10px;
+}
+
+.footer .Second-footercontainer .badge-container{
+    width: 210px;
+    height: 50px;
+    margin-top: 70px;
+    display: flex;
+}
+
+.footer .Second-footercontainer .badge-container >a{
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-left: 12px;
+}
+
+.footer .Second-footercontainer .badge-container >a:nth-child(1){
+    margin-left: 0;
+}

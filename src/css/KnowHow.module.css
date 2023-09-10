@@ -1,0 +1,13 @@
+.knowhow{
+    position: absolute;
+    left: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.link{
+    position: absolute;
+    font-size: 16px;
+    right: 0;
+    color: #00C7AE;
+}

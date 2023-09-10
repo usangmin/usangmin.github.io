@@ -1,0 +1,36 @@
+.mainService {
+    width: 970px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.mainService > p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.mainService > div > button {
+    margin-right: 10px;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px 0;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.mainService > div .active{
+    background-color: #EAFAF9;
+    color: #00C7AE;
+}
+
+.mainService > div > a{
+    position: absolute;
+    right: 0;
+    color: #00C7AE;
+}
