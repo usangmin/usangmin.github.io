@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SoomgoCloneCoding/static/css/main.57c33e26.css",
+    "main.js": "/SoomgoCloneCoding/static/js/main.7ab40510.js",
+    "index.html": "/SoomgoCloneCoding/index.html",
+    "main.57c33e26.css.map": "/SoomgoCloneCoding/static/css/main.57c33e26.css.map",
+    "main.7ab40510.js.map": "/SoomgoCloneCoding/static/js/main.7ab40510.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57c33e26.css",
+    "static/js/main.7ab40510.js"
+  ]
+}
